@@ -1,0 +1,21 @@
+services:
+  user-service:
+    build: ./user-service
+    container_name: user-service-container
+    ports:
+      - "5001:5001"
+
+  task-service:
+    build: ./task-service
+    container_name: task-service-container
+    ports:
+      - "5002:5002"
+
+  frontend:
+    build: ./frontend
+    container_name: frontend-container
+    ports:
+      - "5173:5173"
+    depends_on:
+      - user-service
+      - task-service
