@@ -342,7 +342,11 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 * Kubernetes pods
   <img width="737" height="215" alt="Screenshot 2026-03-06 231124" src="https://github.com/user-attachments/assets/7ef2457b-07db-4096-a559-b2484a4732a5" />
 * Grafana dashboards
-  
+  <img width="1365" height="515" alt="Screenshot 2026-03-06 231231" src="https://github.com/user-attachments/assets/927ae894-f607-4a36-afe1-83dddfd19f8a" />
+<img width="1349" height="598" alt="Screenshot 2026-03-06 231245" src="https://github.com/user-attachments/assets/4e6f7886-4d62-4224-8054-2dcb15c7e3e0" />
+<img width="1350" height="599" alt="Screenshot 2026-03-06 231310" src="https://github.com/user-attachments/assets/f20bff4b-c589-4600-b7e8-9b6f2d5adf49" />
+<img width="1349" height="599" alt="Screenshot 2026-03-06 231321" src="https://github.com/user-attachments/assets/e3f97243-3bad-40ca-95d6-a70740e64c2d" />
+
 * Running application
 
 ---
@@ -350,7 +354,7 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 # 👨‍💻 Author
 
 Akash Tomar
-Full-Stack Developer
+(Full-Stack Developer)
 
 ---
 
