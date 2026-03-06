@@ -11,23 +11,23 @@ function App() {
   const [taskServiceHealth, setTaskServiceHealth] = useState("Checking...");
 
   const fetchUsers = async () => {
-    const response = await fetch("http://localhost:5001/users");
+    const response = await fetch("http://localhost:30001/users");
     const data = await response.json();
     setUsers(data);
   };
 
   const fetchTasks = async () => {
-    const response = await fetch("http://localhost:5002/tasks");
+    const response = await fetch("http://localhost:30002/tasks");
     const data = await response.json();
     setTasks(data);
   };
 
   const fetchHealth = async () => {
-    const userHealthResponse = await fetch("http://localhost:5001/health");
+    const userHealthResponse = await fetch("http://localhost:30001/health");
     const userHealthData = await userHealthResponse.json();
     setUserServiceHealth(userHealthData.status);
 
-    const taskHealthResponse = await fetch("http://localhost:5002/health");
+    const taskHealthResponse = await fetch("http://localhost:30002/health");
     const taskHealthData = await taskHealthResponse.json();
     setTaskServiceHealth(taskHealthData.status);
   };
@@ -35,7 +35,7 @@ function App() {
   const addUser = async () => {
     if (!userName.trim()) return;
 
-    await fetch("http://localhost:5001/users", {
+    await fetch("http://localhost:30001/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -50,7 +50,7 @@ function App() {
   const addTask = async () => {
     if (!taskTitle.trim()) return;
 
-    await fetch("http://localhost:5002/tasks", {
+    await fetch("http://localhost:30002/tasks", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -67,7 +67,7 @@ function App() {
   };
 
   const deleteTask = async (id) => {
-    await fetch(`http://localhost:5002/tasks/${id}`, {
+    await fetch(`http://localhost:30002/tasks/${id}`, {
       method: "DELETE"
     });
 
