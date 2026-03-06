@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build-and-push:
@@ -14,6 +15,7 @@ jobs:
       packages: write
 
     strategy:
+      fail-fast: false
       matrix:
         service:
           - name: user-service
@@ -26,6 +28,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Show actor and owner
+        run: |
+          echo "Actor: ${{ github.actor }}"
+          echo "Owner: ${{ github.repository_owner }}"
+          echo "Repo: ${{ github.repository }}"
 
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v3
