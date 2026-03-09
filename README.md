@@ -336,7 +336,7 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 # 📸 Screenshots
 
 * GitHub Actions pipeline
-  <img width="1365" height="469" alt="Screenshot 2026-03-06 230948" src="https://github.com/user-attachments/assets/582b0481-fc32-4e3d-afe5-0e84c8b04c9e" />
+  <img width="1365" height="572" alt="Screenshot 2026-03-07 001329" src="https://github.com/user-attachments/assets/0a3fb4fd-e4dd-4284-9f44-cf01a8330fe8" />
 * Argo CD dashboard
   <img width="1349" height="601" alt="Screenshot 2026-03-06 231005" src="https://github.com/user-attachments/assets/3c8fb905-7f66-4408-8cce-4e0e332ea23c" />
 * Kubernetes pods
@@ -346,8 +346,9 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 <img width="1349" height="598" alt="Screenshot 2026-03-06 231245" src="https://github.com/user-attachments/assets/4e6f7886-4d62-4224-8054-2dcb15c7e3e0" />
 <img width="1350" height="599" alt="Screenshot 2026-03-06 231310" src="https://github.com/user-attachments/assets/f20bff4b-c589-4600-b7e8-9b6f2d5adf49" />
 <img width="1349" height="599" alt="Screenshot 2026-03-06 231321" src="https://github.com/user-attachments/assets/e3f97243-3bad-40ca-95d6-a70740e64c2d" />
-
 * Running application
+<img width="1355" height="547" alt="Screenshot 2026-03-07 002714" src="https://github.com/user-attachments/assets/188d968f-d592-4081-be02-82613db45ab7" />
+<img width="1343" height="594" alt="Screenshot 2026-03-07 002737" src="https://github.com/user-attachments/assets/077bb82b-1e81-4fdb-bb8b-c740704ef5b9" />
 
 ---
 
