@@ -15,5 +15,6 @@ spec:
       containers:
         - name: frontend
           image: ghcr.io/akash17112004/frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5173
